@@ -34,7 +34,7 @@ from nova import wsgi
 CACHE_EXPIRATION = 15  # in seconds
 
 CONF = cfg.CONF
-CONF.import_opt('memcached_servers', 'nova.config')
+#CONF.import_opt('memcached_servers', 'nova.config')
 CONF.import_opt('use_forwarded_for', 'nova.api.auth')
 
 metadata_proxy_opts = [
